@@ -2,7 +2,7 @@
 
 My time was kind of limited for this test after the Ansible one, I was lucky I found this repo (https://github.com/AnisBidhani/US_Baby_Names_Analytics) that contains most of the thing I needed for the test and for me to have an easy start.
 
-hdadmin shell script was modified to add some step, like crontjob, downloading data, fix ssh section, drop some ^M from scripts...
+hdadmin shell script was modified to add some steps, like crontjob, downloading data, fix ssh section, drop some ^M from scripts...
 
 to change perms from Ambari, changing dfs.namenode.acls.enabled in /etc/hadoop/conf was useless, i didn't find better solution than doing it directly from the console : HDFS -> Configs -> Advanced -> Custom hdfs-site.xml then add dfs.namenode.acls.enabled=true and then Save.
 
