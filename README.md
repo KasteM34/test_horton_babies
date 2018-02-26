@@ -95,7 +95,6 @@ sudo -u hdfs hdfs dfs -setfacl -m group:hive-ingest-users:rwx /user/hdadmin/USBa
 sudo -u hdfs hdfs dfs -getfacl -R /user/hdadmin/USBabyNamesAnalytics
 ```
 
-
 ## Show cluster performance stats (at onsite demo)
 
 It's available directly on : http://sandbox-hdp.hortonworks.com:8080/#/main/dashboard/metrics
@@ -111,10 +110,3 @@ I will propose to move the older data files to s3 reduced redundacy(cheap), even
 It can be set with a lifecycle policy in AWS.
 
 ![lifecycle](https://www.cloudberrylab.com/blog/wp-content/uploads/2016/04/amazon-s3-amazon-glacier-lifecycle-example.png)
-
-
-
-
-
-
-
